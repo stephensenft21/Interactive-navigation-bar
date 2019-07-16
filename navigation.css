@@ -1,0 +1,22 @@
+#hi {
+    color: blue
+}
+.link {
+    list-style-type: none;
+    background-color: black
+}
+.navigation * {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+a:hover {
+    color: red;
+    background-color: blue;
+}
+a:active{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 4em;
+}
